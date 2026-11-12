@@ -1,0 +1,24 @@
+record_type	analysis	software_or_parameter	value	path_or_scope
+SOFTWARE	ALL	IQ-TREE	IQ-TREE version 3.1.2 for Linux x86 64-bit built May 17 2026 Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow, Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt	/home/hammadse/miniconda3/envs/wrky_q1/bin/iqtree3
+SOFTWARE	ALL	Python	3.11.15 | packaged by conda-forge | (main, Jun 11 2026, 03:34:02) [GCC 14.3.0]	/home/hammadse/miniconda3/envs/wrky_q1/bin/python
+SOFTWARE	FIGURES_AND_VALIDATION	Biopython	1.87	Python_package
+SOFTWARE	FIGURES	Matplotlib	3.11.1	Python_package
+PARAMETER	M09C_PRIMARY	declared_model	MFP+MERGE	UNCHANGED_DUAL_DOMAIN_506_AA
+RESULT	M09C_PRIMARY	selected_model	Q.INSECT+F+I+G4:PF04783,Q.PLANT+I+G4:PF04782	UNCHANGED_DUAL_DOMAIN_506_AA
+PARAMETER	M09C_FULL	declared_model	MFP	UNCHANGED_FULL_LENGTH_1611_AA
+RESULT	M09C_FULL	selected_model	JTT+F+R4	UNCHANGED_FULL_LENGTH_1611_AA
+PARAMETER	R1	declared_model	LG+C20+F+G4	UNCHANGED_DUAL_DOMAIN_506_AA
+RESULT	R1	selected_model	LG+C20+F+G4	UNCHANGED_DUAL_DOMAIN_506_AA
+PARAMETER	R2	declared_model	MFP+MERGE	DUAL_DOMAIN_OCCUPANCY20_363_AA
+RESULT	R2	selected_model	Q.INSECT+F+I+R2:PF04783,Q.PLANT+I+G4:PF04782	DUAL_DOMAIN_OCCUPANCY20_363_AA
+PARAMETER	R3	declared_model	MFP	FULL_LENGTH_OCCUPANCY20_735_AA
+RESULT	R3	selected_model	JTT+F+R4	FULL_LENGTH_OCCUPANCY20_735_AA
+PARAMETER	R4	declared_model	GTR+FO+G4	UNCHANGED_DUAL_DOMAIN_506_DAYHOFF6
+RESULT	R4	selected_model	GTR+FO+G4	UNCHANGED_DUAL_DOMAIN_506_DAYHOFF6
+PARAMETER	R1_R2_R3_R4	maximum_threads	2	PRE_REGISTERED
+PARAMETER	R1_R2_R3_R4	independent_ml_searches	5	PRE_REGISTERED
+PARAMETER	R1_R2_R3_R4	ultrafast_bootstrap_replicates	1000	PRE_REGISTERED
+PARAMETER	R1_R2_R3_R4	sh_alrt_replicates	1000	PRE_REGISTERED
+PARAMETER	R1_R2_R3_R4	bootstrap_nni	ENABLED	PRE_REGISTERED
+PARAMETER	R1_R2_R3_R4	rooting	UNROOTED	PRE_REGISTERED
+PARAMETER	R1_R2_R3_R4	strong_support_threshold	SH-aLRT>=80_AND_UFBoot>=95	PRE_REGISTERED
